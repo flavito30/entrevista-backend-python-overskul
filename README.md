@@ -4,7 +4,7 @@ API RESTful construida con **FastAPI** para realizar operaciones CRUD (Crear, Le
 
 ## Características
 - CRUD completo para `tasks`:
-  - **Crear un tarea*: `POST /task/`
+  - **Crear un tarea*: `POST /tasks/`
   - **Leer todos los items**: `GET /tasks/`
   - **Leer un item específico**: `GET /tasks/{item_id}`
   - **Actualizar un tarea*: `PUT /tasks/{item_id}`
