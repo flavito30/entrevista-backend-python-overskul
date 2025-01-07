@@ -1,6 +1,6 @@
 # Item Management API
 
-API RESTful construida con **FastAPI** para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de "items". Incluye validaciones robustas, documentación automática y una estructura modular escalable.
+API RESTful construida con **FastAPI** para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de "tareas". Incluye validaciones robustas, documentación automática y una estructura modular escalable.
 
 ## Características
 - CRUD completo para `tasks`:
