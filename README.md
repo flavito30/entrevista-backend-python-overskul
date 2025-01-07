@@ -1,4 +1,4 @@
-# Item Management API
+# Task Management API
 
 API RESTful construida con **FastAPI** para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de "tareas". Incluye validaciones robustas, documentación automática y una estructura modular escalable.
 
