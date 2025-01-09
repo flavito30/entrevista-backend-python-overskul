@@ -19,7 +19,7 @@ def update_task(db:Session , task_id : int , task :schemas.TaskUpdate) :
     db_task = get_task(db , task_id)
     if not db_task:
         return None
-    for key , value in task.dict(exclude_unset=True).items():
+    for key , value in task.model_dump(exclude_unset=True).items():
         setattr(db_task , key , value)
     db.commit()
     db.refresh(db_task)
